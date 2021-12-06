@@ -1,15 +1,11 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
+import Tab from './tab'
 
 Vue.use(Vuex)
 
 export default new Vuex.Store({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    Tab
   }
 })

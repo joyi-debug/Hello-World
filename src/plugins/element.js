@@ -1,0 +1,51 @@
+import Vue from 'vue'
+import {
+  Button,
+  Select,
+  Container,
+  Aside,
+  Main,
+  Header,
+  Row,
+  Col,
+  Footer,
+  CollapseItem,
+  Collapse,
+  Menu,
+  MenuItem,
+  MenuItemGroup,
+  Submenu,
+  Dropdown,
+  DropdownMenu,
+  DropdownItem,
+  Card,
+  Table,
+  TableColumn,
+  Tag,
+  Breadcrumb,
+  BreadcrumbItem
+} from 'element-ui'
+Vue.use(Button)
+Vue.use(Select)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Main)
+Vue.use(Aside)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Footer)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Menu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Submenu)
+Vue.use(Dropdown)
+Vue.use(DropdownItem)
+Vue.use(DropdownMenu)
+Vue.use(Card)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Tag)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)

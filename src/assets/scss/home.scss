@@ -1,0 +1,86 @@
+.home{
+  .user{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(161, 160, 160);
+    img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-right: 35px;
+    }
+    &Info{
+      .name{
+        font-weight: bold;
+        font-size: 40px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+      }
+      .access{
+        font-size: 20px;
+        color: rgb(124, 122, 122);
+        margin-top: 0px;
+        text-align: center;
+      }
+    }
+  }
+  .login-info{
+    p{
+      line-height: 28px;
+      font-size: 14px;
+      color: #999999;
+      span{
+        color: #666666;
+        margin-left: 60px;
+      }
+    }
+  }
+  .num{
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 190px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    // align-content: ;
+    .el-card{
+      width: 240px;
+      height: 80px;
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .icon{
+        width:100px;display:flex;justify-content:center;align-items:center;
+      }
+      .detail{
+        padding: 0px 10px 0px  0px;
+        margin: 0px;
+        height: 80px;
+        text-align: center;
+        .num{
+          font-size: 30px;
+          font-weight: bold;
+          margin: 5px 0px 0px 0px;
+          height: 40px;
+        }
+        .txt{
+          color: #666666;
+          padding-top: 0px;
+          margin-top: 0px;
+        }
+      }
+    }
+  }
+  .graph{
+    height: 240px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
